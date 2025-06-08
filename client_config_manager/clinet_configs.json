@@ -17,5 +17,15 @@
         "custom_properties": {
             "retries": 3
         }
+    },
+    "property_service": {
+        "name": "property_service",
+        "endpoint_url": "http://localhost:5001",
+        "hostname": "localhost",
+        "namespace": "dev",
+        "custom_properties": {
+            "description": "API for managing multi-unit buildings and single-family homes.",
+            "api_version": "v1.0"
+        }
     }
 }
