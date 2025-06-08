@@ -1,0 +1,21 @@
+{
+    "payment_gateway": {
+        "name": "payment_gateway",
+        "endpoint_url": "https://api.paymentgateway.com/v1",
+        "hostname": "api.paymentgateway.com",
+        "namespace": "prod",
+        "custom_properties": {
+            "api_key_env_var": "PAYMENT_API_KEY",
+            "timeout_seconds": 60
+        }
+    },
+    "user_service": {
+        "name": "user_service",
+        "endpoint_url": "http://localhost:5000/users",
+        "hostname": "localhost",
+        "namespace": "dev",
+        "custom_properties": {
+            "retries": 3
+        }
+    }
+}
